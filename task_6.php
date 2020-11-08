@@ -1,18 +1,18 @@
-Unlimited Even Number
+unlimited Even Number
 <hr>
 <?php
 if(isset($_REQUEST["submit"])){
     $n = $_REQUEST["number"];
     
   
-   echo "The even numbers are <br>";
+   
         for($x = 0; $x <= $n; $x++){
             $y = $x % 2;
             
             if($y == 0){
                
+                echo "$x is an even number<br>";
                 
-                echo "$x <br>";
                 
             }
     }

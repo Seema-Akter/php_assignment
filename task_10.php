@@ -1,4 +1,4 @@
-Unlimited Even Number
+Unlimited odd Number
 <hr>
 <?php
 if(isset($_REQUEST["submit"])){

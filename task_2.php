@@ -1,3 +1,5 @@
+print n number
+<hr>
 <?php
 if(isset($_REQUEST["submit"])){
     $n = $_REQUEST["number"];
